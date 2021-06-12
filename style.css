@@ -1,3 +1,70 @@
 body{
-    background: rgb(32, 32, 31);
+    background: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 110%;
+}
+.name img{
+    /* margin: auto; */
+    /* display: flex; */
+    width: 160px;
+    clip-path: circle(40% at 60% 40%);
+}
+.name p{
+    /* text-align: center; */
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.name span{
+    color:green;
+    font-size: 1.20rem;
+}
+.container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btns1{
+    padding-top: 10px;
+}
+ .fa{
+    margin-right: 10px;
+}
+
+.btns1 button{
+    font-size: 1.30rem;
+    padding: 15px 90px;
+    background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+    border: none;
+    display: flex;
+}
+button:hover{
+     background-image:linear-gradient(to right,rgb(60, 190, 199),rgb(199, 59, 212));
+}
+.btns2 button{
+    font-size: 1.30rem;
+    padding: 15px 77px;
+    background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+    border: none;
+    margin-top: 20px;
+    display: flex;
+}
+.btns3 button{
+    font-size: 1.30rem;
+    padding: 15px 82px;
+    background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+    border: none;
+    margin-top: 20px;
+    display: flex;
+}
+.btns4 button{
+    font-size: 1.30rem;
+    padding: 15px 82px;
+    background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+    border: none;
+    margin-top: 20px;
+    display: flex;
 }
