@@ -86,14 +86,14 @@ a{
 
     .btns1 button{
         font-size: 1.30rem;
-        padding: 15px 60px;
+        padding: 10px 60px;
         background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
         border: none;
         display: inline-flex;
     }
     .btns2 button{
         font-size: 1.30rem;
-        padding: 15px 48px;
+        padding: 10px 48px;
         background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
         border: none;
         margin-top: 20px;
@@ -101,7 +101,7 @@ a{
     }
     .btns3 button{
         font-size: 1.30rem;
-        padding: 15px 53px;
+        padding: 10px 53px;
         background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
         border: none;
         margin-top: 20px;
@@ -109,7 +109,7 @@ a{
     }
     .btns4 button{
         font-size: 1.30rem;
-        padding: 15px 52px;
+        padding: 10px 52px;
         background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
         border: none;
         margin-top: 20px;
