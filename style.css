@@ -29,9 +29,14 @@ html{
 }
 .btns1{
     padding-top: 10px;
+    position: relative;
+    /* display: ; */
 }
  .fa{
     margin-right: 10px;
+}
+a{
+    text-decoration: none;
 }
 
 .btns1 button{
@@ -39,10 +44,11 @@ html{
     padding: 15px 90px;
     background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
     border: none;
-    display: flex;
+    /* display: flex; */
 }
-button:hover{
-     background-image:linear-gradient(to right,rgb(60, 190, 199),rgb(199, 59, 212));
+.container button:hover{
+    background-image: none;
+    border: 2px solid rgb(46, 206, 192);
 }
 .btns2 button{
     font-size: 1.30rem;
@@ -50,7 +56,7 @@ button:hover{
     background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
     border: none;
     margin-top: 20px;
-    display: flex;
+    /* display: flex; */
 }
 .btns3 button{
     font-size: 1.30rem;
@@ -58,7 +64,7 @@ button:hover{
     background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
     border: none;
     margin-top: 20px;
-    display: flex;
+    /* display: flex; */
 }
 .btns4 button{
     font-size: 1.30rem;
@@ -66,5 +72,5 @@ button:hover{
     background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
     border: none;
     margin-top: 20px;
-    display: flex;
+    /* display: flex; */
 }
