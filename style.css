@@ -74,3 +74,45 @@ a{
     margin-top: 20px;
     /* display: flex; */
 }
+
+@media(max-width: 375px){
+    .container{
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .btns1 button{
+        font-size: 1.30rem;
+        padding: 15px 60px;
+        background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+        border: none;
+        display: inline-flex;
+    }
+    .btns2 button{
+        font-size: 1.30rem;
+        padding: 15px 48px;
+        background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+        border: none;
+        margin-top: 20px;
+        display: inline-flex;
+    }
+    .btns3 button{
+        font-size: 1.30rem;
+        padding: 15px 53px;
+        background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+        border: none;
+        margin-top: 20px;
+        display: inline-flex;
+    }
+    .btns4 button{
+        font-size: 1.30rem;
+        padding: 15px 52px;
+        background-image:linear-gradient(to right, rgb(199, 59, 212),rgb(60, 190, 199));
+        border: none;
+        margin-top: 20px;
+        display: inline-flex;
+    }
+}
